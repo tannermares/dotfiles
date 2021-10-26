@@ -1,0 +1,41 @@
+# Unix
+alias reshell="source ~/.zshrc && source ~/.aliases"
+alias ae="vi ~/.aliases.local"
+alias rc="vi ~/.zshrc.local"
+alias clr="clear"
+alias p="ps aux | grep $1"
+alias k="kill -9 $1"
+alias devlog="tail -f log/development.log"
+alias ls="lsd"
+alias ll="lsd -al"
+
+# git
+alias gtfo="echo '(╯°□°)╯︵ ┻━┻' && git reset --hard && git clean --force"
+alias gcaa="git commit -a --amend"
+alias gst="git status"
+alias gr="git reset HEAD^"
+alias gl="git log --pretty=oneline --abbrev-commit -n40"
+alias main="git stash && git co main && git fetch origin && git pull origin main --rebase"
+alias staging="git stash && git co staging && git fetch origin && git pull origin staging --rebase"
+alias rmb='git checkout -q main && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base main $branch) && [[ $(git cherry main $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done'
+
+# Bundler
+alias be="bundle exec"
+
+# Rails
+alias dm="rails db:migrate && RAILS_ENV=test rails db:migrate && git co origin/main db/structure.sql"
+alias drb="rails db:rollback STEP=1 && RAILS_ENV=test rails db:rollback STEP=1 && git co origin/master db/structure.sql"
+
+# Box
+alias restart="box restart-app"
+alias nginx-restart="sudo nginx -s reload"
+alias nginx-conf="code /usr/local/etc/nginx/conf.d/pco.conf"
+
+# Cloud Box
+alias cloudme="pco cloud-box up --tmux-iterm"
+alias cloudfix="pco cloud-box stop && aws sso logout && cloudme"
+
+# AWS
+alias pi="pco aws-console pi"
+alias pco-aws="open -a /Applications/Firefox.app -g https://planningcenter.awsapps.com/start#/"
+alias tweakster-aws="open -a /Applications/Firefox.app -g https://tweakster.awsapps.com/start#/"
