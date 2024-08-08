@@ -26,7 +26,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim starship tldr wget zoxide
 
 # Install cask apps
-#  1. iTerm2            (terminal emulator)      https://iterm2.com/
+#  1. alacritty         (terminal emulator)      https://alacritty.org/
 #  2. GPG Suite         (manage GPG keys)        https://gpgtools.org/
 #  3. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
 #  4. Medis             (Modern GUI for Redis)   https://getmedis.com/
@@ -36,7 +36,7 @@ brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim s
 #  8. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
 #  9. Sequel Ace        (database client)        https://sequel-ace.com/
 # 10. VSCode            (text editor)            https://code.visualstudio.com/
-brew install --cask iterm2 gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace visual-studio-code webquicklook
+brew install --cask alacritty gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace visual-studio-code webquicklook
 
 # Start services
 brew services start mysql
@@ -46,12 +46,17 @@ brew services start redis
 git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git
 
 # Add tokyonight themes
+# Alacritty https://github.com/folke/tokyonight.nvim/tree/main/extras/alacritty
+mkdir -p ~/.config/alacritty
+ln -fs $(pwd)/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+ln -fs $(pwd)/alacritty/themes ~/.config/alacritty/themes
+
 # NeoVim https://github.com/folke/tokyonight.nvim/tree/main
 ln -fs $(pwd)/nvim/lua/plugins/colorscheme.lua ~/.config/nvim/lua/plugins/colorscheme.lua
 
 # Lazygit https://github.com/folke/tokyonight.nvim/tree/main/extras/lazygit
 mkdir -p ~/.config/lazygit
-ln -fs $(pwd)/lazygit/tokyonight_moon.yml ~/.config/lazygit/config.yml
+ln -fs $(pwd)/lazygit/tokyonight_night.yml ~/.config/lazygit/config.yml
 
 # Symlink fish configs
 mkdir -p ~/.config/fish/conf.d
