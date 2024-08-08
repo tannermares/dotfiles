@@ -111,9 +111,6 @@ open -b com.apple.Fontbook
 # App (Web and Mobile) prep
 ##
 
-# You're going to need to do this at some point. Might as well do it now
-xcode-select --install
-
 # Install node & ruby
 mise use --global node@latest && mise use --global ruby@latest
 
@@ -130,3 +127,12 @@ yarn install
 ##
 
 # Login to vscode for settings syncing...done!
+
+##
+# Xcode
+##
+
+xcode-select --install
+sudo xcode-select -s /Applications/Xcode.app
+
+# 1. Login to AppleId & Github in Settings -> accounts
