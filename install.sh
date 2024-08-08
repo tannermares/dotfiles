@@ -1,5 +1,9 @@
 #!/bin/bash
 
+##
+# Install Libraries, Services, and Applications
+##
+
 # Install brew (package manager) https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -45,6 +49,10 @@ brew services start redis
 # Install lazyvim https://www.lazyvim.org/
 git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git
 
+##
+# Configuration
+##
+
 # Add tokyonight themes
 # Alacritty https://github.com/folke/tokyonight.nvim/tree/main/extras/alacritty
 mkdir -p ~/.config/alacritty
@@ -85,6 +93,27 @@ starship init fish | source
 # Set starship theme
 starship preset pastel-powerline -o ~/.config/starship.toml
 
+##
+# NerdFont Integration
+##
+
+# Download NerdFont https://www.nerdfonts.com/font-downloads
+curl -L -o ~/Downloads/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
+
+# Unzip into Downloads
+unzip ~/Downloads/JetBrainsMono.zip -d ~/Downloads/JetBrainsMono
+
+# Open Fontbook and drag all downloaded fonts there
+open -b com.apple.Fontbook
+
+
+##
+# App (Web and Mobile) prep
+##
+
+# You're going to need to do this at some point. Might as well do it now
+xcode-select --install
+
 # Install node & ruby
 mise use --global node@latest && mise use --global ruby@latest
 
@@ -96,10 +125,8 @@ corepack enable
 yarn set version stable
 yarn install
 
-# Download NerdFont https://www.nerdfonts.com/font-downloads
-curl -L -o ~/Downloads/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
+##
+# VS Code
+##
 
-# Things you have to do from GUI
-# 1. Import iTerm profile and colors
-# 2. Click on font files to import them into fontbook
-# 3. Login to vscode for settings syncing
+# Login to vscode for settings syncing...done!
