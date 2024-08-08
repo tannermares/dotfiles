@@ -88,6 +88,14 @@ starship preset pastel-powerline -o ~/.config/starship.toml
 # Install node & ruby
 mise use --global node@latest && mise use --global ruby@latest
 
+# Insall mysql2 gem https://stackoverflow.com/questions/67840691/ld-library-not-found-for-lzstd-while-bundle-install-for-mysql2-gem-ruby-on-mac
+gem install mysql2 -- --with-opt-dir=$(brew --prefix openssl) --with-ldflags=-L/opt/homebrew/opt/zstd/lib
+
+# Insall yarn 2 in yarn 1 app https://yarnpkg.com/migration/guide#migration-steps
+corepack enable
+yarn set version stable
+yarn install
+
 # Download NerdFont https://www.nerdfonts.com/font-downloads
 curl -L -o ~/Downloads/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
 

@@ -11,9 +11,6 @@ padding.x = 20
 padding.y = 24
 decorations = "Transparent"
 
-[keyboard]
-bindings = [{ key = "F11", action = "ToggleFullscreen" }]
-
 [font]
 normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
 bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
