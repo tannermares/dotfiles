@@ -30,17 +30,17 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim starship tldr wget zoxide
 
 # Install cask apps
-#  1. alacritty         (terminal emulator)      https://alacritty.org/
-#  2. GPG Suite         (manage GPG keys)        https://gpgtools.org/
-#  3. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
-#  4. Medis             (Modern GUI for Redis)   https://getmedis.com/
-#  5. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
-#  6. RapidAPI          (api client)             https://rapidapi.com
-#  7. Rectangle         (window manager)         https://rectangleapp.com/
-#  8. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
-#  9. Sequel Ace        (database client)        https://sequel-ace.com/
-# 10. VSCode            (text editor)            https://code.visualstudio.com/
-brew install --cask alacritty gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace visual-studio-code webquicklook
+#  1. GPG Suite         (manage GPG keys)        https://gpgtools.org/
+#  2. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
+#  3. Medis             (Modern GUI for Redis)   https://getmedis.com/
+#  4. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
+#  5. RapidAPI          (api client)             https://rapidapi.com
+#  6. Rectangle         (window manager)         https://rectangleapp.com/
+#  7. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
+#  8. Sequel Ace        (database client)        https://sequel-ace.com/
+#  9. VSCode            (text editor)            https://code.visualstudio.com/
+# 10. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
+brew install --cask gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace visual-studio-code webquicklook wezterm
 
 # Start services
 brew services start mysql
@@ -54,10 +54,9 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/
 ##
 
 # Add tokyonight themes
-# Alacritty https://github.com/folke/tokyonight.nvim/tree/main/extras/alacritty
-mkdir -p ~/.config/alacritty
-ln -fs $(pwd)/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
-ln -fs $(pwd)/alacritty/themes ~/.config/alacritty/themes
+# WezTerm https://github.com/folke/tokyonight.nvim/tree/main/extras/wezterm
+mkdir -p ~/.config/wezterm
+ln -fs $(pwd)/wezterm/wezterm.lua ~/.config/wezterm/wezterm.lua
 
 # NeoVim https://github.com/folke/tokyonight.nvim/tree/main
 ln -fs $(pwd)/nvim/lua/plugins/colorscheme.lua ~/.config/nvim/lua/plugins/colorscheme.lua
