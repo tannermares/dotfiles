@@ -37,5 +37,4 @@ alias cloudfix="pco cloud-box stop && aws sso logout && cloudme"
 
 # AWS
 alias pi="pco aws-console pi"
-alias pco-aws="open -a /Applications/Firefox.app -g https://planningcenter.awsapps.com/start#/"
-alias tweakster-aws="open -a /Applications/Firefox.app -g https://tweakster.awsapps.com/start#/"
+alias pco-aws="open -a /Applications/Firefox\ Developer\ Edition.app -g https://planningcenter.awsapps.com/start#/"
