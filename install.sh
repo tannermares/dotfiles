@@ -38,9 +38,10 @@ brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim s
 #  6. Rectangle         (window manager)         https://rectangleapp.com/
 #  7. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
 #  8. Sequel Ace        (database client)        https://sequel-ace.com/
+#  8. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
 #  9. VSCode            (text editor)            https://code.visualstudio.com/
 # 10. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-brew install --cask gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace visual-studio-code webquicklook wezterm
+brew install --cask gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace sqlitestudio visual-studio-code webquicklook wezterm
 
 # Start services
 brew services start mysql
