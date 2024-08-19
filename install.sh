@@ -32,16 +32,20 @@ brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim s
 # Install cask apps
 #  1. GPG Suite         (manage GPG keys)        https://gpgtools.org/
 #  2. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
-#  3. Medis             (Modern GUI for Redis)   https://getmedis.com/
-#  4. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
-#  5. RapidAPI          (api client)             https://rapidapi.com
-#  6. Rectangle         (window manager)         https://rectangleapp.com/
-#  7. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
-#  8. Sequel Ace        (database client)        https://sequel-ace.com/
-#  8. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
-#  9. VSCode            (text editor)            https://code.visualstudio.com/
-# 10. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-brew install --cask gpg-suite keepingyouawake medis qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace sqlitestudio visual-studio-code webquicklook wezterm
+#  3. Logitech G HUB    (light controller)       https://www.logitechg.com/en-us/innovation/g-hub.html
+#  4. Medis             (Modern GUI for Redis)   https://getmedis.com/
+#  5. pgAdmin           (PostgresSQL admin)      https://www.pgadmin.org/ 
+#  6. PostgresApp       (Postgres App)           https://postgresapp.com/
+#  7. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
+#  8. RapidAPI          (api client)             https://rapidapi.com
+#  9. Rectangle         (window manager)         https://rectangleapp.com/
+# 10. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
+# 11. Sequel Ace        (database client)        https://sequel-ace.com/
+# 12. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
+# 13. StreamLabs        (streaming software)     https://streamlabs.com/
+# 14. VSCode            (text editor)            https://code.visualstudio.com/
+# 15. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
+brew install --cask gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace sqlitestudio streamlabs visual-studio-code webquicklook wezterm
 
 # Start services
 brew services start mysql
