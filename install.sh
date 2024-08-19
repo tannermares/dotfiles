@@ -41,11 +41,12 @@ brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim s
 #  9. Rectangle         (window manager)         https://rectangleapp.com/
 # 10. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
 # 11. Sequel Ace        (database client)        https://sequel-ace.com/
-# 12. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
-# 13. StreamLabs        (streaming software)     https://streamlabs.com/
-# 14. VSCode            (text editor)            https://code.visualstudio.com/
-# 15. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-brew install --cask gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace sqlitestudio streamlabs visual-studio-code webquicklook wezterm
+# 12. Slack             (chat client)            https://slack.com/
+# 13. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
+# 14. StreamLabs        (streaming software)     https://streamlabs.com/
+# 15. VSCode            (text editor)            https://code.visualstudio.com/
+# 16. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
+brew install --cask gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm
 
 # Start services
 brew services start mysql
