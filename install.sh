@@ -14,20 +14,21 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #  1. bat       (cat improvement)                    https://github.com/sharkdp/bat
 #  2. btop      (htop on steriods)                   https://github.com/aristocratos/btop
 #  3. fastfetch (cute system info)                   https://github.com/fastfetch-cli/fastfetch
-#  4. fish      (RAD shell)                          https://fishshell.com/
-#  5. fzf       (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
-#  6. lazygit   (fun git TUI)                        https://github.com/jesseduffield/lazygit
-#  7. llvm      (needed for ruby installs)           https://www.llvm.org/
-#  8. lsd       (list improvement)                   https://github.com/lsd-rs/lsd
-#  9. mise      (development environment setup tool) https://mise.jdx.dev/
-# 10. mysql     (relational database)                https://dev.mysql.com/doc/
-# 11. neovim    (vim alternative)                    https://neovim.io
-# 12. redis     (in memory database)                 https://redis.io/docs/latest/
-# 13. starship  (shell prompt)                       https://starship.rs/
-# 14. tldr      (simplified man pages)               https://tldr.sh/
-# 15. wget      (better web getter)                  https://www.gnu.org/software/wget/
-# 16. zoxide    (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop fastfetch fish fzf go lazygit llvm lsd mise mysql neovim starship tldr wget zoxide
+#  4. ffmpeg    (record, convert and stream A/V)     https://ffmpeg.org/
+#  5. fish      (RAD shell)                          https://fishshell.com/
+#  6. fzf       (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
+#  7. lazygit   (fun git TUI)                        https://github.com/jesseduffield/lazygit
+#  8. llvm      (needed for ruby installs)           https://www.llvm.org/
+#  9. lsd       (list improvement)                   https://github.com/lsd-rs/lsd
+# 10. mise      (development environment setup tool) https://mise.jdx.dev/
+# 11. mysql     (relational database)                https://dev.mysql.com/doc/
+# 12. neovim    (vim alternative)                    https://neovim.io
+# 13. redis     (in memory database)                 https://redis.io/docs/latest/
+# 14. starship  (shell prompt)                       https://starship.rs/
+# 15. tldr      (simplified man pages)               https://tldr.sh/
+# 16. wget      (better web getter)                  https://www.gnu.org/software/wget/
+# 17. zoxide    (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
+brew install bat btop fastfetch ffmpeg fish fzf go lazygit llvm lsd mise mysql neovim starship tldr wget zoxide
 
 # Install cask apps
 #  1. GPG Suite         (manage GPG keys)        https://gpgtools.org/
