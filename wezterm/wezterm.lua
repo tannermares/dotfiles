@@ -12,6 +12,10 @@ config.window_frame = {
   font_size = 13.0,
 }
 
+config.window_padding = {
+  top = 50,
+}
+
 config.colors = {
   tab_bar = {
     active_tab = {
