@@ -13,22 +13,23 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install libraries
 #  1. bat       (cat improvement)                    https://github.com/sharkdp/bat
 #  2. btop      (htop on steriods)                   https://github.com/aristocratos/btop
-#  3. fastfetch (cute system info)                   https://github.com/fastfetch-cli/fastfetch
-#  4. ffmpeg    (record, convert and stream A/V)     https://ffmpeg.org/
-#  5. fish      (RAD shell)                          https://fishshell.com/
-#  6. fzf       (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
-#  7. lazygit   (fun git TUI)                        https://github.com/jesseduffield/lazygit
-#  8. llvm      (needed for ruby installs)           https://www.llvm.org/
-#  9. lsd       (list improvement)                   https://github.com/lsd-rs/lsd
-# 10. mise      (development environment setup tool) https://mise.jdx.dev/
-# 11. mysql     (relational database)                https://dev.mysql.com/doc/
-# 12. neovim    (vim alternative)                    https://neovim.io
-# 13. redis     (in memory database)                 https://redis.io/docs/latest/
-# 14. starship  (shell prompt)                       https://starship.rs/
-# 15. tldr      (simplified man pages)               https://tldr.sh/
-# 16. wget      (better web getter)                  https://www.gnu.org/software/wget/
-# 17. zoxide    (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop fastfetch ffmpeg fish fzf go lazygit llvm lsd mise mysql neovim starship tldr wget zoxide
+#  3. deno      (opensource javascript runtime)      http://deno.com
+#  4. fastfetch (cute system info)                   https://github.com/fastfetch-cli/fastfetch
+#  5. ffmpeg    (record, convert and stream A/V)     https://ffmpeg.org/
+#  6. fish      (RAD shell)                          https://fishshell.com/
+#  7. fzf       (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
+#  8. lazygit   (fun git TUI)                        https://github.com/jesseduffield/lazygit
+#  9. llvm      (needed for ruby installs)           https://www.llvm.org/
+# 10. lsd       (list improvement)                   https://github.com/lsd-rs/lsd
+# 11. mise      (development environment setup tool) https://mise.jdx.dev/
+# 12. mysql     (relational database)                https://dev.mysql.com/doc/
+# 13. neovim    (vim alternative)                    https://neovim.io
+# 14. redis     (in memory database)                 https://redis.io/docs/latest/
+# 15. starship  (shell prompt)                       https://starship.rs/
+# 16. tldr      (simplified man pages)               https://tldr.sh/
+# 17. wget      (better web getter)                  https://www.gnu.org/software/wget/
+# 18. zoxide    (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
+brew install bat btop deno fastfetch ffmpeg fish fzf go lazygit llvm lsd mise mysql neovim starship tldr wget zoxide
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
@@ -36,7 +37,7 @@ brew install bat btop fastfetch ffmpeg fish fzf go lazygit llvm lsd mise mysql n
 #  3. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
 #  4. Logitech G HUB    (light controller)       https://www.logitechg.com/en-us/innovation/g-hub.html
 #  5. Medis             (Modern GUI for Redis)   https://getmedis.com/
-#  6. pgAdmin           (PostgresSQL admin)      https://www.pgadmin.org/ 
+#  6. pgAdmin           (PostgresSQL admin)      https://www.pgadmin.org/
 #  7. PostgresApp       (Postgres App)           https://postgresapp.com/
 #  8. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
 #  9. RapidAPI          (api client)             https://rapidapi.com
@@ -112,7 +113,6 @@ unzip ~/Downloads/JetBrainsMono.zip -d ~/Downloads/JetBrainsMono
 
 # Open Fontbook and drag all downloaded fonts there
 open -b com.apple.Fontbook
-
 
 ##
 # App (Web and Mobile) prep
