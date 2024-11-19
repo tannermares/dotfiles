@@ -22,6 +22,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #  9. lazygit   (fun git TUI)                        https://github.com/jesseduffield/lazygit
 # 10. llvm      (needed for ruby installs)           https://www.llvm.org/
 # 11. lsd       (list improvement)                   https://github.com/lsd-rs/lsd
+# 12. maccy     (clipboard manager)                  https://github.com/p0deje/Maccy
 # 12. mise      (development environment setup tool) https://mise.jdx.dev/
 # 13. mysql     (relational database)                https://dev.mysql.com/doc/
 # 14. neovim    (vim alternative)                    https://neovim.io
@@ -31,7 +32,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # 18. tldr      (simplified man pages)               https://tldr.sh/
 # 19. wget      (better web getter)                  https://www.gnu.org/software/wget/
 # 10. zoxide    (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf go lazygit llvm lsd mise mysql neovim ninja starship tldr wget zoxide
+brew install bat btop cmake deno fastfetch ffmpeg fish fzf go lazygit llvm lsd maccy mise mysql neovim ninja starship tldr wget zoxide
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
