@@ -36,6 +36,7 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf go lazygit llvm lsd m
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
+#  2. Gimp              (GNU Image Manipulation) https://www.gimp.org/
 #  2. GPG Suite         (manage GPG keys)        https://gpgtools.org/
 #  3. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
 #  4. Logitech G HUB    (light controller)       https://www.logitechg.com/en-us/innovation/g-hub.html
@@ -52,7 +53,7 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf go lazygit llvm lsd m
 # 15. StreamLabs        (streaming software)     https://streamlabs.com/
 # 16. VSCode            (text editor)            https://code.visualstudio.com/
 # 17. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-brew install --cask discord gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm
+brew install --cask discord gimp gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm
 
 # Start services
 brew services start mysql
