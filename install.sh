@@ -11,28 +11,30 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install libraries
-#  1. bat       (cat improvement)                    https://github.com/sharkdp/bat
-#  2. btop      (htop on steriods)                   https://github.com/aristocratos/btop
-#  3. cmake     (Cross-platform make)                https://www.cmake.org/
-#  4. deno      (opensource javascript runtime)      http://deno.com
-#  5. fastfetch (cute system info)                   https://github.com/fastfetch-cli/fastfetch
-#  6. ffmpeg    (record, convert and stream A/V)     https://ffmpeg.org/
-#  7. fish      (RAD shell)                          https://fishshell.com/
-#  8. fzf       (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
-#  9. lazygit   (fun git TUI)                        https://github.com/jesseduffield/lazygit
-# 10. llvm      (needed for ruby installs)           https://www.llvm.org/
-# 11. lsd       (list improvement)                   https://github.com/lsd-rs/lsd
-# 12. maccy     (clipboard manager)                  https://github.com/p0deje/Maccy
-# 12. mise      (development environment setup tool) https://mise.jdx.dev/
-# 13. mysql     (relational database)                https://dev.mysql.com/doc/
-# 14. neovim    (vim alternative)                    https://neovim.io
-# 15. ninja     (Small build system)                 https://ninja-build.org/
-# 16. redis     (in memory database)                 https://redis.io/docs/latest/
-# 17. starship  (shell prompt)                       https://starship.rs/
-# 18. tldr      (simplified man pages)               https://tldr.sh/
-# 19. wget      (better web getter)                  https://www.gnu.org/software/wget/
-# 10. zoxide    (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf go lazygit llvm lsd maccy mise mysql neovim ninja starship tldr wget zoxide
+#  1. bat             (cat improvement)                    https://github.com/sharkdp/bat
+#  2. btop            (htop on steriods)                   https://github.com/aristocratos/btop
+#  3. cmake           (Cross-platform make)                https://www.cmake.org/
+#  4. deno            (opensource javascript runtime)      http://deno.com
+#  5. fastfetch       (cute system info)                   https://github.com/fastfetch-cli/fastfetch
+#  6. ffmpeg          (record, convert and stream A/V)     https://ffmpeg.org/
+#  7. fish            (RAD shell)                          https://fishshell.com/
+#  8. fzf             (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
+#  9. git-filter-repo (rewrite git history)                https://github.com/newren/git-filter-repo
+# 10. go              (golang)                             https://go.dev/
+# 11. lazygit         (fun git TUI)                        https://github.com/jesseduffield/lazygit
+# 12. llvm            (needed for ruby installs)           https://www.llvm.org/
+# 13. lsd             (list improvement)                   https://github.com/lsd-rs/lsd
+# 14. maccy           (clipboard manager)                  https://github.com/p0deje/Maccy
+# 15. mise            (development environment setup tool) https://mise.jdx.dev/
+# 16. mysql           (relational database)                https://dev.mysql.com/doc/
+# 17. neovim          (vim alternative)                    https://neovim.io
+# 18. ninja           (Small build system)                 https://ninja-build.org/
+# 19. redis           (in memory database)                 https://redis.io/docs/latest/
+# 20. starship        (shell prompt)                       https://starship.rs/
+# 21. tldr            (simplified man pages)               https://tldr.sh/
+# 22. wget            (better web getter)                  https://www.gnu.org/software/wget/
+# 23. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
+brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit llvm lsd maccy mise mysql neovim ninja starship tldr wget zoxide
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
