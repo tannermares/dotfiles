@@ -55,7 +55,7 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go la
 # 15. StreamLabs        (streaming software)     https://streamlabs.com/
 # 16. VSCode            (text editor)            https://code.visualstudio.com/
 # 17. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-brew install --cask discord gimp gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlimagesize qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm
+brew install --cask discord gimp gpg-suite keepingyouawake logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm
 
 # Start services
 brew services start mysql
