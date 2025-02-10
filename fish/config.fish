@@ -3,4 +3,4 @@ if status is-interactive
 end
 
 # Maybe don't need this?
-eval (/opt/homebrew/bin/brew shellenv)
+# eval (/opt/homebrew/bin/brew shellenv)

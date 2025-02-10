@@ -3,7 +3,7 @@ local config = wezterm.config_builder()
 
 config.color_scheme = 'Tokyo Night'
 config.font_size = 13
-config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
+-- config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
 
 config.window_frame = {
@@ -13,7 +13,7 @@ config.window_frame = {
 }
 
 config.window_padding = {
-  top = 50,
+  -- top = 50,
 }
 
 config.colors = {
