@@ -74,6 +74,9 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/
 mkdir -p ~/.config/wezterm
 ln -fs $(pwd)/wezterm/wezterm.lua ~/.config/wezterm/wezterm.lua
 
+# qterm
+ln -fs $(pwd)/qterminal/TokyoNight.colorscheme /usr/share/qtermwidget5/color-schemes/TokyoNight.colorscheme
+
 # NeoVim https://github.com/folke/tokyonight.nvim/tree/main
 ln -fs $(pwd)/nvim/lua/plugins/colorscheme.lua ~/.config/nvim/lua/plugins/colorscheme.lua
 
@@ -118,8 +121,7 @@ curl -L -o ~/Downloads/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts
 # Unzip into Downloads
 unzip ~/Downloads/JetBrainsMono.zip -d ~/Downloads/JetBrainsMono
 
-# Open Fontbook and drag all downloaded fonts there
-open -b com.apple.Fontbook
+# TODO: add linux font directions
 
 ##
 # App (Web and Mobile) prep
@@ -141,12 +143,3 @@ yarn install
 ##
 
 # Login to vscode for settings syncing...done!
-
-##
-# Xcode
-##
-
-xcode-select --install
-sudo xcode-select -s /Applications/Xcode.app
-
-# 1. Login to AppleId & Github in Settings -> accounts
