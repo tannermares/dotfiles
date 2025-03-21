@@ -22,19 +22,21 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #  9. git-filter-repo (rewrite git history)                https://github.com/newren/git-filter-repo
 # 10. go              (golang)                             https://go.dev/
 # 11. lazygit         (fun git TUI)                        https://github.com/jesseduffield/lazygit
-# 12. llvm            (needed for ruby installs)           https://www.llvm.org/
-# 13. lsd             (list improvement)                   https://github.com/lsd-rs/lsd
-# 14. maccy           (clipboard manager)                  https://github.com/p0deje/Maccy
-# 15. mise            (development environment setup tool) https://mise.jdx.dev/
-# 16. mysql           (relational database)                https://dev.mysql.com/doc/
-# 17. neovim          (vim alternative)                    https://neovim.io
-# 18. ninja           (Small build system)                 https://ninja-build.org/
-# 19. redis           (in memory database)                 https://redis.io/docs/latest/
-# 20. starship        (shell prompt)                       https://starship.rs/
-# 21. tldr            (simplified man pages)               https://tldr.sh/
-# 22. wget            (better web getter)                  https://www.gnu.org/software/wget/
-# 23. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit llvm lsd maccy mise mysql neovim ninja starship tldr wget zoxide
+# 12. libffi          (needed for ruby installs)           https://github.com/libffi/libffi
+# 13. libyaml         (needed for ruby installs)           https://github.com/yaml/libyaml
+# 14. llvm            (needed for ruby installs)           https://www.llvm.org/
+# 15. lsd             (list improvement)                   https://github.com/lsd-rs/lsd
+# 16. maccy           (clipboard manager)                  https://github.com/p0deje/Maccy
+# 17. mise            (development environment setup tool) https://mise.jdx.dev/
+# 18. mysql           (relational database)                https://dev.mysql.com/doc/
+# 19. neovim          (vim alternative)                    https://neovim.io
+# 20. ninja           (Small build system)                 https://ninja-build.org/
+# 21. redis           (in memory database)                 https://redis.io/docs/latest/
+# 22. starship        (shell prompt)                       https://starship.rs/
+# 23. tldr            (simplified man pages)               https://tldr.sh/
+# 24. wget            (better web getter)                  https://www.gnu.org/software/wget/
+# 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
+brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja starship tldr wget zoxide
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
