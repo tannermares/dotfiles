@@ -31,12 +31,13 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # 18. mysql           (relational database)                https://dev.mysql.com/doc/
 # 19. neovim          (vim alternative)                    https://neovim.io
 # 20. ninja           (Small build system)                 https://ninja-build.org/
+# 21. pnpm            (space efficient package manager)    https://pnpm.io/
 # 21. redis           (in memory database)                 https://redis.io/docs/latest/
 # 22. starship        (shell prompt)                       https://starship.rs/
 # 23. tldr            (simplified man pages)               https://tldr.sh/
 # 24. wget            (better web getter)                  https://www.gnu.org/software/wget/
 # 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja starship tldr wget zoxide
+brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr wget zoxide
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
