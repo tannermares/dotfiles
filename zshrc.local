@@ -1,4 +1,5 @@
 eval "$(rbenv init - zsh)"
+eval "$(direnv hook zsh)"
 eval "$($HOME/Code/pco/bin/pco init -)"
 source $HOME/pco-box/env.sh
 
