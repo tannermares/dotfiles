@@ -19,6 +19,7 @@
   # editor = "code --wait --new-window"
 [commit]
   template = ~/.gitmessage
+	gpgsign = true
 [diff]
   colorMoved = zebra
   compactionHeuristic = true

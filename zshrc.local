@@ -4,3 +4,5 @@ eval "$($HOME/Code/pco/bin/pco init -)"
 source $HOME/pco-box/env.sh
 
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
