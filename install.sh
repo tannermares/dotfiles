@@ -60,7 +60,7 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go la
 # 18. VSCode            (text editor)            https://code.visualstudio.com/
 # 19. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
 # 20. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
-brew install --cask discord gpg-suite keepingyouawake krita librewolf logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm whiskey
+brew install --cask discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm whiskey
 
 # https://librewolf.net/docs/faq/#why-is-librewolf-marked-as-broken
 brew install --cask librewolf --no-quarantine
