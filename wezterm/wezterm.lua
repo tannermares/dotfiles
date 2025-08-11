@@ -47,6 +47,16 @@ config.keys = {
     mods = 'CMD',
     action = wezterm.action.ClearScrollback 'ScrollbackAndViewport',
   },
+  {
+    key = 'd',
+    mods = 'CMD',
+    action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
+  },
+  {
+    key = 'd',
+    mods = 'CMD|SHIFT',
+    action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
+  },
 }
 
 return config
