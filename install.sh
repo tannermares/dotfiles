@@ -51,18 +51,19 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go la
 #  9. PostgresApp       (Postgres App)           https://postgresapp.com/
 # 10. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
 # 11. RapidAPI          (api client)             https://rapidapi.com
-# 12. Rectangle         (window manager)         https://rectangleapp.com/
-# 13. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
-# 14. Sequel Ace        (database client)        https://sequel-ace.com/
-# 15. Slack             (chat client)            https://slack.com/
-# 16. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
-# 17. StreamLabs        (streaming software)     https://streamlabs.com/
-# 18. Transmission.     (BitTorrent client).     https://transmissionbt.com/
-# 19. UTM.              (VM UI using QEMU).      https://mac.getutm.app/
-# 20. VSCode            (text editor)            https://code.visualstudio.com/
-# 21. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-# 22. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
-brew install --cask discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey
+# 12. Raspberry Pi      (raspberry pi imager)    https://www.raspberrypi.org/downloads/
+# 13. Rectangle         (window manager)         https://rectangleapp.com/
+# 14. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
+# 15. Sequel Ace        (database client)        https://sequel-ace.com/
+# 16. Slack             (chat client)            https://slack.com/
+# 17. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
+# 18. StreamLabs        (streaming software)     https://streamlabs.com/
+# 19. Transmission.     (BitTorrent client).     https://transmissionbt.com/
+# 20. UTM.              (VM UI using QEMU).      https://mac.getutm.app/
+# 21. VSCode            (text editor)            https://code.visualstudio.com/
+# 22. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
+# 23. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
+brew install --cask discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi raspberry-pi-imager rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey
 
 # https://librewolf.net/docs/faq/#why-is-librewolf-marked-as-broken
 brew install --cask librewolf --no-quarantine
