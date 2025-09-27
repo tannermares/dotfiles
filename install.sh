@@ -57,10 +57,12 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go la
 # 15. Slack             (chat client)            https://slack.com/
 # 16. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
 # 17. StreamLabs        (streaming software)     https://streamlabs.com/
+# 18. Transmission.     (BitTorrent client).     https://transmissionbt.com/
+# 18. UTM.              (VM UI using QEMU).      https://mac.getutm.app/
 # 18. VSCode            (text editor)            https://code.visualstudio.com/
 # 19. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
 # 20. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
-brew install --cask discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs visual-studio-code webquicklook wezterm whiskey
+brew install --cask discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey
 
 # https://librewolf.net/docs/faq/#why-is-librewolf-marked-as-broken
 brew install --cask librewolf --no-quarantine
