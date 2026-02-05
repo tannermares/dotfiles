@@ -34,7 +34,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # 21. pnpm            (space efficient package manager)    https://pnpm.io/
 # 21. redis           (in memory database)                 https://redis.io/docs/latest/
 # 22. starship        (shell prompt)                       https://starship.rs/
-# 23. tldr            (simplified man pages)               https://tldr.sh/
+# 23. tlrc            (simplified man pages)               https://tldr.sh/tlrc/
 # 24. wget            (better web getter)                  https://www.gnu.org/software/wget/
 # 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
 brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr wget zoxide
