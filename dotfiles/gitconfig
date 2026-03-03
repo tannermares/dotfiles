@@ -13,7 +13,7 @@
   autocrlf = input
   # editor = "code --wait --new-window"
 [commit]
-  gpgsign = true
+	gpgsign = true
   # template = ~/.gitmessage
 [diff]
   colorMoved = zebra
@@ -39,3 +39,6 @@
 [user]
   name = Tanner Mares
   email = tannermares@gmail.com
+	signingkey = /Users/tanner/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh

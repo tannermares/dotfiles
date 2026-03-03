@@ -20,6 +20,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #  7. fish            (RAD shell)                          https://fishshell.com/
 #  8. fzf             (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
 #  9. git-filter-repo (rewrite git history)                https://github.com/newren/git-filter-repo
+# 10. gh.             (GitHub CLI)                         https://cli.github.com/
 # 10. go              (golang)                             https://go.dev/
 # 11. lazygit         (fun git TUI)                        https://github.com/jesseduffield/lazygit
 # 12. libffi          (needed for ruby installs)           https://github.com/libffi/libffi
@@ -37,7 +38,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # 23. tlrc            (simplified man pages)               https://tldr.sh/tlrc/
 # 24. wget            (better web getter)                  https://www.gnu.org/software/wget/
 # 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr wget zoxide
+brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr wget zoxide
 
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
