@@ -40,6 +40,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
 brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr wget zoxide
 
+# Render for Rails production deploys
+brew tap render-oss/render && brew install render
+
 # Install cask apps
 #  1. Discord           (Voice and text chat)    https://discord.com/
 #  2. GPG Suite         (manage GPG keys)        https://gpgtools.org/
