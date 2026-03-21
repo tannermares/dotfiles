@@ -36,9 +36,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # 21. redis           (in memory database)                 https://redis.io/docs/latest/
 # 22. starship        (shell prompt)                       https://starship.rs/
 # 23. tlrc            (simplified man pages)               https://tldr.sh/tlrc/
+# 24. vips.           (Image processing library)           https://github.com/libvips/libvips
 # 24. wget            (better web getter)                  https://www.gnu.org/software/wget/
 # 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr wget zoxide
+brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr vips wget zoxide
 
 # Render for Rails production deploys
 brew tap render-oss/render && brew install render
