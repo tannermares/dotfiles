@@ -46,33 +46,41 @@ brew tap render-oss/render && brew install render
 
 # Install cask apps
 #  1. Android Studio.   (Build Android apps)     https://developer.android.com/studio/
-#  1. Discord           (Voice and text chat)    https://discord.com/
-#  2. GPG Suite         (manage GPG keys)        https://gpgtools.org/
-#  3. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
-#  4. Krita             (painting program)       https://krita.org/en/
-#  5. LibreWolf         (Firefox clone)          https://librewolf.net/
-#  6. Logitech G HUB    (light controller)       https://www.logitechg.com/en-us/innovation/g-hub.html
-#  7. Medis             (Modern GUI for Redis)   https://getmedis.com/
-#  8. pgAdmin           (PostgresSQL admin)      https://www.pgadmin.org/
-#  9. PostgresApp       (Postgres App)           https://postgresapp.com/
-# 10. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
-# 11. RapidAPI          (api client)             https://rapidapi.com
-# 12. Raspberry Pi      (raspberry pi imager)    https://www.raspberrypi.org/downloads/
-# 13. Rectangle         (window manager)         https://rectangleapp.com/
-# 14. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
-# 15. Sequel Ace        (database client)        https://sequel-ace.com/
-# 16. Slack             (chat client)            https://slack.com/
-# 17. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
-# 18. StreamLabs        (streaming software)     https://streamlabs.com/
-# 19. Transmission.     (BitTorrent client).     https://transmissionbt.com/
-# 20. UTM.              (VM UI using QEMU).      https://mac.getutm.app/
-# 21. VSCode            (text editor)            https://code.visualstudio.com/
-# 22. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
-# 23. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
-brew install --cask android-studio discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi raspberry-pi-imager rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey
+#  2. Discord           (Voice and text chat)    https://discord.com/
+#  3. GPG Suite         (manage GPG keys)        https://gpgtools.org/
+#  4. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
+#  5. Krita             (painting program)       https://krita.org/en/
+#  6. LibreWolf         (Firefox clone)          https://librewolf.net/
+#  7. Logitech G HUB    (light controller)       https://www.logitechg.com/en-us/innovation/g-hub.html
+#  8. Medis             (Modern GUI for Redis)   https://getmedis.com/
+#  9. pgAdmin           (PostgresSQL admin)      https://www.pgadmin.org/
+# 10. PostgresApp       (Postgres App)           https://postgresapp.com/
+# 11. QuickLook Plugins (makes quicklook better) https://www.quicklookplugins.com/
+# 12. RapidAPI          (api client)             https://rapidapi.com
+# 13. Raspberry Pi      (raspberry pi imager)    https://www.raspberrypi.org/downloads/
+# 14. Rectangle         (window manager)         https://rectangleapp.com/
+# 15. Rocket            (emoji app)              https://matthewpalmer.net/rocket/
+# 16. Sequel Ace        (database client)        https://sequel-ace.com/
+# 17. Slack             (chat client)            https://slack.com/
+# 18. SQLiteStudio      (sqlite database client) https://sqlitestudio.pl/
+# 19. StreamLabs        (streaming software)     https://streamlabs.com/
+# 20. Transmission.     (BitTorrent client).     https://transmissionbt.com/
+# 21. UTM.              (VM UI using QEMU).      https://mac.getutm.app/
+# 22. VSCode            (text editor)            https://code.visualstudio.com/
+# 23. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
+# 24. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
+# 25. Zulu.             (OpenJDK distribution).  https://www.azul.com/downloads/
+brew install --cask android-studio discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi raspberry-pi-imager rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey zulu@21
 
 # https://librewolf.net/docs/faq/#why-is-librewolf-marked-as-broken
-brew install --cask librewolf --no-quarantine
+brew install --cask librewolf
+
+# You can remove the quarantine attribute from the Application using this command:
+# xattr -dr com.apple.quarantine /Applications/LibreWolf.app
+
+# How do I get native messaging to work?
+# You need to add the following symbolic link:
+# ln -s ~/Library/Application\ Support/Mozilla/NativeMessagingHosts ~/Library/Application\ Support/LibreWolf/NativeMessagingHosts
 
 # Start services
 brew services start mysql
