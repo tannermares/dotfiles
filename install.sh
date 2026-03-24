@@ -45,6 +45,7 @@ brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go
 brew tap render-oss/render && brew install render
 
 # Install cask apps
+#  1. Android Studio.   (Build Android apps)     https://developer.android.com/studio/
 #  1. Discord           (Voice and text chat)    https://discord.com/
 #  2. GPG Suite         (manage GPG keys)        https://gpgtools.org/
 #  3. Keeping You Awake (prevent system sleep)   https://keepingyouawake.app/
@@ -68,7 +69,7 @@ brew tap render-oss/render && brew install render
 # 21. VSCode            (text editor)            https://code.visualstudio.com/
 # 22. WezTerm           (terminal emulator)      https://wezfurlong.org/wezterm/
 # 23. Whiskey           (Wine Wrapper for Mac)   https://github.com/Whisky-App/Whisky
-brew install --cask discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi raspberry-pi-imager rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey
+brew install --cask android-studio discord gpg-suite keepingyouawake krita logitech-g-hub medis pgadmin4 qlcolocode qlmarkdown qlprettypatch qlvideo quicklook-csv quicklook-json quicklookase rapidapi raspberry-pi-imager rectangle rocket sequel-ace slack sqlitestudio streamlabs transmission utm visual-studio-code webquicklook wezterm whiskey
 
 # https://librewolf.net/docs/faq/#why-is-librewolf-marked-as-broken
 brew install --cask librewolf --no-quarantine
