@@ -13,33 +13,34 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install libraries
 #  1. bat             (cat improvement)                    https://github.com/sharkdp/bat
 #  2. btop            (htop on steriods)                   https://github.com/aristocratos/btop
-#  3. cmake           (Cross-platform make)                https://www.cmake.org/
-#  4. deno            (opensource javascript runtime)      http://deno.com
-#  5. fastfetch       (cute system info)                   https://github.com/fastfetch-cli/fastfetch
-#  6. ffmpeg          (record, convert and stream A/V)     https://ffmpeg.org/
-#  7. fish            (RAD shell)                          https://fishshell.com/
-#  8. fzf             (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
-#  9. git-filter-repo (rewrite git history)                https://github.com/newren/git-filter-repo
-# 10. gh.             (GitHub CLI)                         https://cli.github.com/
-# 10. go              (golang)                             https://go.dev/
-# 11. lazygit         (fun git TUI)                        https://github.com/jesseduffield/lazygit
-# 12. libffi          (needed for ruby installs)           https://github.com/libffi/libffi
-# 13. libyaml         (needed for ruby installs)           https://github.com/yaml/libyaml
-# 14. llvm            (needed for ruby installs)           https://www.llvm.org/
-# 15. lsd             (list improvement)                   https://github.com/lsd-rs/lsd
-# 16. maccy           (clipboard manager)                  https://github.com/p0deje/Maccy
-# 17. mise            (development environment setup tool) https://mise.jdx.dev/
-# 18. mysql           (relational database)                https://dev.mysql.com/doc/
-# 19. neovim          (vim alternative)                    https://neovim.io
-# 20. ninja           (Small build system)                 https://ninja-build.org/
-# 21. pnpm            (space efficient package manager)    https://pnpm.io/
-# 21. redis           (in memory database)                 https://redis.io/docs/latest/
-# 22. starship        (shell prompt)                       https://starship.rs/
-# 23. tlrc            (simplified man pages)               https://tldr.sh/tlrc/
-# 24. vips.           (Image processing library)           https://github.com/libvips/libvips
-# 24. wget            (better web getter)                  https://www.gnu.org/software/wget/
-# 25. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
-brew install bat btop cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr vips wget zoxide
+#  3. caddy           (web server)                         https://caddyserver.com/
+#  4. cmake           (Cross-platform make)                https://www.cmake.org/
+#  5. deno            (opensource javascript runtime)      http://deno.com
+#  6. fastfetch       (cute system info)                   https://github.com/fastfetch-cli/fastfetch
+#  7. ffmpeg          (record, convert and stream A/V)     https://ffmpeg.org/
+#  8. fish            (RAD shell)                          https://fishshell.com/
+#  9. fzf             (fuzzy finder used in zoxide)        https://github.com/junegunn/fzf
+# 10. git-filter-repo (rewrite git history)                https://github.com/newren/git-filter-repo
+# 11. gh.             (GitHub CLI)                         https://cli.github.com/
+# 12. go              (golang)                             https://go.dev/
+# 13. lazygit         (fun git TUI)                        https://github.com/jesseduffield/lazygit
+# 14. libffi          (needed for ruby installs)           https://github.com/libffi/libffi
+# 15. libyaml         (needed for ruby installs)           https://github.com/yaml/libyaml
+# 16. llvm            (needed for ruby installs)           https://www.llvm.org/
+# 17. lsd             (list improvement)                   https://github.com/lsd-rs/lsd
+# 18. maccy           (clipboard manager)                  https://github.com/p0deje/Maccy
+# 19. mise            (development environment setup tool) https://mise.jdx.dev/
+# 20. mysql           (relational database)                https://dev.mysql.com/doc/
+# 21. neovim          (vim alternative)                    https://neovim.io
+# 22. ninja           (Small build system)                 https://ninja-build.org/
+# 23. pnpm            (space efficient package manager)    https://pnpm.io/
+# 24. redis           (in memory database)                 https://redis.io/docs/latest/
+# 25. starship        (shell prompt)                       https://starship.rs/
+# 26. tlrc            (simplified man pages)               https://tldr.sh/tlrc/
+# 27. vips.           (Image processing library)           https://github.com/libvips/libvips
+# 28. wget            (better web getter)                  https://www.gnu.org/software/wget/
+# 29. zoxide          (smarter cd command)                 https://github.com/ajeetdsouza/zoxide
+brew install bat btop caddy cmake deno fastfetch ffmpeg fish fzf git-filter-repo gh go lazygit libffi libyaml llvm lsd maccy mise mysql neovim ninja pnpm starship tldr vips wget zoxide
 
 # Render for Rails production deploys
 brew tap render-oss/render && brew install render
